@@ -18,6 +18,7 @@ from django.urls import path,include
 
 urlpatterns = [
     path('members/',include('members.urls')),
+    path('jabj/',include('jabj.urls')),
     path('admin/', admin.site.urls),
     
 ]
